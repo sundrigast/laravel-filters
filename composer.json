@@ -1,0 +1,29 @@
+{
+    "name": "sundrigast/laravel-filters",
+    "description": "Convenient and simple filters for your Laravel Eloquent application",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "builder",
+        "filter"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sundrigast",
+            "email": "sundrigast@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sundrigast\\LaravelFilters\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.3",
+        "illuminate/database": "^5.8|^6.0|^7.0",
+        "illuminate/support": "~5.8.35|^6.0"
+    }
+}
